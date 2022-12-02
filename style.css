@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(245, 192, 124);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 70vh;
+    height: 70vh;
+    border: 1px black solid;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+
+}
+
+.cell {
+    /* border: 1px solid red; */
+    flex: 1;
+}
+
+.cell:hover {
+    border: 1px solid purple;
+}
